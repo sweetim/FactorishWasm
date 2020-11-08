@@ -1,0 +1,15 @@
+{
+  "name": "factorish-js",
+  "collaborators": [
+    "msakuta <masahiro.sakuta@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "factorish_js_bg.wasm",
+    "factorish_js.js",
+    "factorish_js.d.ts"
+  ],
+  "module": "factorish_js.js",
+  "types": "factorish_js.d.ts",
+  "sideEffects": false
+}
