@@ -77,8 +77,9 @@ export class FactorishState {
 /**
 * @param {HTMLCanvasElement} canvas
 * @param {HTMLDivElement} info_elem
+* @param {Array<any>} image_assets
 */
-  render_init(canvas: HTMLCanvasElement, info_elem: HTMLDivElement): void;
+  render_init(canvas: HTMLCanvasElement, info_elem: HTMLDivElement, image_assets: Array<any>): void;
 /**
 * @returns {Array<any>}
 */
@@ -131,7 +132,7 @@ export interface InitOutput {
   readonly factorishstate_mouse_move: (a: number, b: number, c: number) => void;
   readonly factorishstate_mouse_leave: (a: number) => void;
   readonly factorishstate_on_key_down: (a: number, b: number) => number;
-  readonly factorishstate_render_init: (a: number, b: number, c: number) => void;
+  readonly factorishstate_render_init: (a: number, b: number, c: number, d: number) => void;
   readonly factorishstate_tool_defs: (a: number) => number;
   readonly factorishstate_selected_tool: (a: number) => number;
   readonly factorishstate_render_tool: (a: number, b: number, c: number) => void;

@@ -16,7 +16,7 @@ export function factorishstate_mouse_down(a: number, b: number, c: number, d: nu
 export function factorishstate_mouse_move(a: number, b: number, c: number): void;
 export function factorishstate_mouse_leave(a: number): void;
 export function factorishstate_on_key_down(a: number, b: number): number;
-export function factorishstate_render_init(a: number, b: number, c: number): void;
+export function factorishstate_render_init(a: number, b: number, c: number, d: number): void;
 export function factorishstate_tool_defs(a: number): number;
 export function factorishstate_selected_tool(a: number): number;
 export function factorishstate_render_tool(a: number, b: number, c: number): void;
